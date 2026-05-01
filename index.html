@@ -117,11 +117,11 @@
   <script>
     const PROMPTS = {
       characters: (title) =>
-        `List the main and supporting characters in "${title}". For each character provide their name and a brief description of who they are and their role in the story. No spoilers please.`,
+        `The book "${title}" — list the main and supporting characters. For each character provide their name and a brief description of who they are and their role in the story. No spoilers please.`,
       synopsis: (title) =>
-        `Give me a brief synopsis of "${title}" in 2-3 paragraphs. No major spoilers.`,
+        `The book "${title}" — give me a brief synopsis in 2-3 paragraphs. No major spoilers.`,
       spoilers: (title) =>
-        `Give me a detailed summary of "${title}" including all major plot points, character arcs, key twists, and the ending. Include spoilers.`,
+        `The book "${title}" — give me a detailed summary including all major plot points, character arcs, key twists, and the ending. Include spoilers.`,
     };
 
     function openClaude(type) {
